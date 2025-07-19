@@ -1,0 +1,8 @@
+services:
+  v:
+    image: khalyomede/vlang:latest-alpine
+    entrypoint: v
+    working_dir: /home/alpine/app
+    volumes:
+      - .:/home/alpine/app
+      - ./docker-data/v/.vmodules:/root/.vmodules
