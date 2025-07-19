@@ -26,7 +26,7 @@ fn main() {
 
 ## About
 
-I created this package to see where why a certain string equality test assertion failed.
+I created this package to see where a certain string equality test assertion failed.
 
 This can be useful for any tool performing simple line by line text diffing.
 
